@@ -49,7 +49,7 @@ The classifier that managed to perform the best was the Linear SVC with: a) F1 S
 
 ## LLM Approach - Pretrained BERT transformer model from Hugging Face
 
-For this part, a pretrained BERT transformer model, from Hugging Face, was used in order to perform the same classification. I have added a trainable classifier head on the pretrained model in order to make the output have the correct shape and match our labels. The final model have been trained only for 10 epochs and has already outperformed the base classifiers. For sure, with some extra tuning and training the results can be exceptional. The performance was evaluated using the same metrics. The scores on the test set are presented below:
+For this part, a pretrained BERT transformer model, from Hugging Face, was used in order to perform the same classification. I have added a trainable classifier head on the pretrained model in order to make the output have the correct shape and match our labels. The final model have been trained only for 10 epochs and has already outperformed the base classifiers. I was used PyTorch for all this processes. For sure, with some extra tuning and training the results can be exceptional. The performance was evaluated using the same metrics. The scores on the test set are presented below:
 
 &#8226; F1 Score: 70.7%
 
