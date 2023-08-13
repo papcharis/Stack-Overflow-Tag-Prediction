@@ -59,5 +59,5 @@ For this part, a pretrained BERT transformer model, from Hugging Face, was used 
 
 # Docker Contenarization 
 
-For the final part of the problem, I have created a Docker file in order to reproduce the problem in any machine. Using the Dockerfile, a Docker image can be created and a container with all the modules and libraries installed can be launched in order to run the Jupyter Notebook.
+For the final part of the problem, I have created a Docker file in order to reproduce the problem in any machine. Using the Dockerfile, a Docker image can be created and a container with all the modules and libraries installed can be launched in order to run the Jupyter Notebook. The required libraries are written on the requirements.txt file.
 
